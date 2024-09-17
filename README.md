@@ -15,6 +15,7 @@ varlıktır.
 • Durum Değeri (Value Function): Kısa vadeli ödül R'nin aksine, iskontolu beklenen uzun vadeli getiri. Vπ(s) , π politikası kapsamında mevcut durum s'nin beklenen uzun vadeli getirisi olarak tanımlanır.
 • Q Değeri veya Eylem Değeri: Q değeri, geçerli eylem a olan ekstra bir parametre alması dışında Değer'e benzer, Qπ(s, a), π politikası kapsamında a eylemi gerçekleştirerek mevcut s durumunun uzun vadeli geri dönüşünü ifade etmektedir.
 
-Eğitim süreci Google Colab ve Kaggle ortamlarında yürütülmüştür. Modelin en iyi çıktıları verebilmesi için uygun hiperparametreler denenmiş ve loss grafikleri analiz edilmiştir.
-![1](https://github.com/user-attachments/assets/066c00bb-3ff7-4528-8a60-b9b2311bc3d0)   ![2](https://github.com/user-attachments/assets/8978400d-949c-47ad-aed4-c6a3bd811421)
+Aşağıdaki görsellerde, eğitim süreci Kaggle platformunda gerçekleştirilmiştir. Bu süreçte, modelin en iyi çıktıları verebilmesi için uygun hiperparametreler denenmiş ve loss grafikleri analiz edilmiştir.
+![1](https://github.com/user-attachments/assets/066c00bb-3ff7-4528-8a60-b9b2311bc3d0)   
+![2](https://github.com/user-attachments/assets/8978400d-949c-47ad-aed4-c6a3bd811421)
 
