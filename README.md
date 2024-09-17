@@ -19,3 +19,15 @@ Aşağıdaki görsellerde, eğitim süreci Kaggle platformunda gerçekleştirilm
 ![1](https://github.com/user-attachments/assets/066c00bb-3ff7-4528-8a60-b9b2311bc3d0)   
 ![2](https://github.com/user-attachments/assets/8978400d-949c-47ad-aed4-c6a3bd811421)
 
+Hiperparametreler, öğrenme oranı (learning rate), epsilon (ε), epsilon decay ve gamma (γ) gibi önemli değerlerden oluşmaktadır. Öğrenme oranı modelin öğrenme hızını, epsilon ve epsilon decay ise ajanın keşif ve sömürü dengesini kontrol etmektedir. Gamma değeri ise gelecekteki ödüllerin anlık kararlar üzerindeki etkisini belirlemektedir.
+
+İlgili parametreler, aşağıdaki görselde yer alan kodda gösterilmektedir.
+![3](https://github.com/user-attachments/assets/bc7fce54-f5dc-4a3b-9302-0e74355e2d6d)
+
+Bu repoda grid tabanlı bir harita üzerinde çalışılmıştır. Grid tabanlı harita üzerinde birer adet başlangıç ve bitiş noktası belirlenmiştir. İlk hedef olarak ajanın başlangıç noktasından bitiş noktasına kendi kendine gitmesi hedeflenmiştir. Ajanın ne kadar iyi öğrendiğini tespit edebilmek için bir test kodu yazılmış ve her test sonucunda başlangıç ve bitiş noktaları random olarak belirlenmiştir. Sonuçların daha iyi yorumlanabilmesi için ajanın yolu görselleştirilmiştir.
+![1](https://github.com/user-attachments/assets/9a0f33d0-853f-4881-a321-69a38b5004d8)
+![2](https://github.com/user-attachments/assets/06fbce5d-4992-4394-9364-91178b654b50)
+
+
+
+
